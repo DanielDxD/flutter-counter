@@ -26,14 +26,12 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       count--;
     });
-    print(count);
   }
 
   void increment() {
     setState(() {
       count++;
     });
-    print(count);
   }
 
   @override
